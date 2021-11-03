@@ -1,0 +1,8 @@
+# nginx
+virtualhosts:
+  - name: sysadblog
+    datos:
+      nameserver: www.sysadblog.com
+      documentroot: /var/www/sysadblog
+
+
