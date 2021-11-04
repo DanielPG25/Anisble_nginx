@@ -1,8 +1,15 @@
 # nginx
 virtualhosts:
-  - name: sysadblog
+  - name: vhost1
     datos:
-      nameserver: www.sysadblog.com
-      documentroot: /var/www/sysadblog
-
+      nameserver: interno.example1.org
+      documentroot: /var/www/vhost1
+  - name: vhost2
+    datos:
+      nameserver: interno.example2.org
+      documentroot: /var/www/vhost2
+        
+virtualhosts2:
+  - name: vhost5
+  - name: vhost6
 
