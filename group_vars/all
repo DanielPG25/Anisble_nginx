@@ -10,6 +10,6 @@ virtualhosts:
       documentroot: /var/www/vhost2
         
 virtualhosts2:
-  - name: vhost5
+  - name: vhost1
   - name: vhost6
 
